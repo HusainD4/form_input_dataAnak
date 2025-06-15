@@ -1,0 +1,85 @@
+/* crud-style.css */
+
+body {
+  background-color: #f3f6f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container h2 {
+  font-weight: 600;
+  color: #333;
+}
+
+.table {
+  border-color: #dee2e6;
+}
+
+.table thead {
+  background-color: #e9ecef;
+  font-weight: 600;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f5ff;
+}
+
+.btn-warning {
+  background-color: #f0ad4e;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #ec971f;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c9302c;
+}
+
+.btn-outline-primary {
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-title {
+  font-weight: 600;
+  color: #212529;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-footer .btn {
+  min-width: 120px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .modal-dialog {
+    width: 95%;
+    margin: auto;
+  }
+}
+
+/* Download Excel Button */
+#downloadExcel {
+  float: right;
+  margin-right: 15px;
+  transition: all 0.3s ease;
+}
+
+#downloadExcel:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.5rem 1rem rgba(40, 167, 69, 0.2);
+}
