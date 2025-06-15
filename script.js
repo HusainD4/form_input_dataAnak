@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const downloadBtn = document.getElementById("downloadExcel");
 
   // Ambil data dari localStorage dengan kunci "anakData"
-  let dataList = JSON.parse(localStorage.getItem("anakData")) || [];
+  let dataList = JSON.parse(localStorage.getItem("dataAnak")) || [];
 
   // Render tabel data anak
   function renderTable() {
